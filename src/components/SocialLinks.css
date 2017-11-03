@@ -1,0 +1,23 @@
+.social-links svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social-links {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-links svg:hover path {
+    fill: rgb(200, 200, 200) !important;
+}
+
+.social-links svg:hover {
+    cursor: pointer;
+}
+.social-links svg path{
+    transition: 0.3s;
+}
