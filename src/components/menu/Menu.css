@@ -1,0 +1,9 @@
+.main-menu .ant-menu-item:hover,
+.main-menu .ant-menu-submenu:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.main-menu .ant-menu-submenu-title:hover{
+    color: black;
+}

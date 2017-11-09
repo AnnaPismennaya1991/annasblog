@@ -2,7 +2,7 @@ import React from 'react';
 
 import SocialLinks from './SocialLinks';
 import HeaderSlider from './headerSlider/HeaderSlider';
-import Menu from './Menu';
+import Menu from './menu/Menu';
 
 const Header = () => {
     return (
