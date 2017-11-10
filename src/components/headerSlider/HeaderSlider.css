@@ -1,6 +1,6 @@
 .header-slider {
     width: auto;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 20px rgba(0, 0, 0, .7);
@@ -35,6 +35,10 @@
 
 .header-slider .slick-arrow {
     display: none !important;
+}
+
+.header-slider .slick-dots {
+    bottom: -35px;
 }
 
 .img-container {
