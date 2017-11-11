@@ -20,6 +20,7 @@
 
 .header-slider button:before {
     transition: .3s;
+    color: rgba(0, 0, 0, 0.65);
 }
 
 .header-slider button:after {

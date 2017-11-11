@@ -7,8 +7,8 @@ import InstagramSvg from './asserts/InstagramSvg';
 const SocialLinks = () => {
     return (
         <div className='social-links'>
-            <FacebookSvg/>
-            <InstagramSvg/>
+            <a href='https://www.facebook.com/pismennaanna' target='_blank'><FacebookSvg/></a>
+            <a href='https://www.instagram.com/pismennaya_anna/' target='_blank'><InstagramSvg/></a>
         </div>
     );
 }
