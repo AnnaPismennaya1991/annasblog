@@ -1,0 +1,1 @@
+export const GET_ALL_STORIES = 'GET_ALL_STORIES';

@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-const Stores = () => {
-    return <div>Stores</div>;
+import getStories from '../actions/storiesActions';
+
+class Stores extends Component {
+    componentWillMount() {
+        this.props.getStories();
+    }
+
+    componentWillReceiveProps(state) {
+        console.log(state.stories);
+    }
+
+    render() {
+        return <div>Stores</div>;
+    }
 }
-export default Stores;
+
+const mapStateToProps = (state) => {
+    return {
+        stories: state.stories
+    }
+}
+
+export default connect(mapStateToProps, { getStories })(Stores);
