@@ -10,21 +10,16 @@ const MenuItemGroup = Menu.ItemGroup;
 
 export default class MenuComponent extends React.Component {
     state = {
-        current: 'mail',
+        isSearch: false
     }
-
-    handleClick = (e) => {
-        console.log('click ', e);
-        this.setState({
-            current: e.key,
-        });
+    showSearch = () => {
+        this.setState( {isSearch:true} )
     }
 
     render() {
         return (
             <div className='menu-component'>
                 <Menu className='main-menu'
-                    onClick={this.handleClick}
                     selectedKeys={[this.state.current]}
                     mode="horizontal">
                     <Menu.Item key="main">Главная</Menu.Item>
@@ -51,8 +46,10 @@ export default class MenuComponent extends React.Component {
                     <Menu.Item key="about-me">Об авторе</Menu.Item>
                 </Menu>
                 <div className='search-svg'>
-                
-                    <SearchSvg/>
+                    { this.state.isSearch && <input type='text' placeholder='Поиск'/> }
+                    <div onClick={this.showSearch}>
+                        <SearchSvg/>
+                    </div>
                 </div>
             </div>
         );
