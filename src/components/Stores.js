@@ -8,12 +8,18 @@ class Stores extends Component {
         this.props.getStories();
     }
 
-    componentWillReceiveProps(state) {
-        console.log(state.stories);
+    renderStories = () => {
+        return this.props.stories.map((story, index) => {
+            return <div key={index}>{ story.name }</div>
+        })
     }
 
     render() {
-        return <div>Stores</div>;
+        return (
+            <div>
+                { this.props.stories.length && this.renderStories() }
+            </div>
+        );
     }
 }
 

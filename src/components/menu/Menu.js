@@ -1,12 +1,11 @@
 import React from 'react';
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 import 'antd/lib/menu/style/index.css';
 
 import SearchSvg from '../asserts/SearchSvg';
 import './Menu.css';
 
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
 
 export default class MenuComponent extends React.Component {
     state = {
