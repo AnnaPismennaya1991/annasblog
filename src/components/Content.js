@@ -1,13 +1,13 @@
 import React from 'react';
 
-import LatestStores from './LatestStores';
-import Stores from './Stores';
+import LatestStories from './LatestStories';
+import Stories from './stories/Stories';
 
 const Content = () => {
     return (
         <div>
-            <LatestStores/>
-            <Stores/>
+            { false && <LatestStories/> }
+            <Stories/>
         </div>
     );
 }

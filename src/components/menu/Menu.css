@@ -9,6 +9,7 @@
 .menu-component .main-menu {
     margin-top: 0px;
     flex: 1;
+    background: transparent;
 }
 
 tooltip {

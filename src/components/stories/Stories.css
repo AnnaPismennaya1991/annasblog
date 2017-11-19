@@ -1,0 +1,16 @@
+.stories {
+    margin: 10px auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.stories .post {
+    width: 340px;
+    padding: 20px 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+    background-color: #fff;
+}
