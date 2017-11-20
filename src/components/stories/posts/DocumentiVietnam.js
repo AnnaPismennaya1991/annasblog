@@ -6,7 +6,7 @@ const miniConfig = {
     title: 'Необходимые документы во Вьетнам',
     img: 'DocumentiVietnam',
     text: 'Трудности в оформлении приглашения',
-    date: '20.06.2017'
+    date: '03.06.2017'
 }
 
 const DocumentiVietnam = (props) => {
