@@ -3,13 +3,13 @@ import React from 'react';
 import MiniPost from './MiniPost';
 
 const miniConfig = {
-    title: 'Asia Park',
-    img: 'AsiaPark',
-    text: 'Центр развлечений Asia Park',
-    date: '19.07.2017'
+    title: 'Lady Buddha (Linh Ung Pagoda)',
+    img: 'LadyBuddha',
+    text: 'Величественная красота',
+    date: '10.07.2017'
 }
 
-const AsiaPark = (props) => {
+const LadyBuddha = (props) => {
     return (
         <div>
             { props.mini && <MiniPost {...miniConfig} />}
@@ -18,4 +18,4 @@ const AsiaPark = (props) => {
     )
 };
 
-export default AsiaPark;
+export default LadyBuddha;

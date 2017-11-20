@@ -15,6 +15,14 @@ import MotoHanoi from './MotoHanoi';
 import CoCoVillaDaNang from './CoCoVillaDaNang';
 import ThungChai from './ThungChai';
 
+import LadyBuddha from './LadyBuddha';
+import Hoian from './Hoian';
+import CollectionByRehahn from './CollectionByRehahn';
+import SubtropicalRain from './SubtropicalRain';
+import DanangBeach from './DanangBeach';
+import AsiaPark from './AsiaPark';
+import FruitsMania from './FruitsMania';
+import VietnamNegative from './VietnamNegative';
 
 export default [
     DocumentiVietnam,
@@ -32,5 +40,13 @@ export default [
     CulturalCenter,
     MotoHanoi,
     CoCoVillaDaNang,
-    ThungChai
+    ThungChai,
+    LadyBuddha,
+    Hoian,
+    CollectionByRehahn,
+    SubtropicalRain,
+    DanangBeach,
+    AsiaPark,
+    FruitsMania,
+    VietnamNegative
 ];
