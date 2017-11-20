@@ -4,13 +4,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 90%;
+    width: 100%;
 }
 
 .stories .post {
-    width: 340px;
-    padding: 20px 20px;
+    width: 350px;
+    padding: 20px;
     margin: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.25);
     background-color: #fff;
+    transition: .5s;
+}
+
+@media screen and (max-width: 1300px) {
+    .stories .post {
+        margin: 10px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .stories .post {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .stories .post {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .stories .post {
+        width: 100%;
+        margin: 10px 0px;
+    }
 }

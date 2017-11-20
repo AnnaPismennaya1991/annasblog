@@ -1,8 +1,20 @@
-import React  from 'react';
+import React from 'react';
 
-const Streets36 = () => {
+import MiniPost from './MiniPost';
+
+const miniConfig = {
+    title: 'Главное, не заблудиться в 36-ти улицах!',
+    img: 'streets36',
+    text: 'Больше всего во Вьетнаме мне понравилось то, что там всегда было куда идти.',
+    date: '28.06.2017'
+};
+
+const Streets36 = (props) => {
     return (
-        <div>Streets36</div>
+        <div>
+            { props.mini && <MiniPost {...miniConfig} /> }
+            { !props.mini && <div>Вся статья</div> }
+        </div>
     )
 };
 

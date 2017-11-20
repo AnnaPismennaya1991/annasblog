@@ -1,12 +1,12 @@
-import React  from 'react';
+import React from 'react';
 
 import MiniPost from './MiniPost';
 
 const miniConfig = {
-    title: 'Необходимые документы',
-    img: 'Изображение',
-    text: 'Текст',
-    date: 'Дата'
+    title: 'Необходимые документы во Вьетнам',
+    img: 'DocumentiVietnam',
+    text: 'Трудности в оформлении приглашения',
+    date: '20.06.2017'
 }
 
 const DocumentiVietnam = (props) => {
