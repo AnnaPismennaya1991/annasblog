@@ -11,11 +11,11 @@ const MiniPost = (props) => {
     return (
         <div>
             <div className='title'>{ props.title }</div>
-            {false && <div>
+            <div className='imgs'>
                 <img src={ imgs[props.img] }/>
-            </div>}
-            <div>{ props.text }</div>
-            <div>{ props.date }</div>
+            </div>
+            <div className='text'>{ props.text }</div>
+            <div className='date'>{ props.date }</div>
         </div>
     )
 };

@@ -6,7 +6,7 @@ const miniConfig = {
     title: 'Hoàn Kiếm',
     img: 'hoanKiem',
     text: 'Озеро возвращённого меча',
-    date: '27.06.2017'
+    date: '29.06.2017'
 }
 
 const HoanKiem = (props) => {

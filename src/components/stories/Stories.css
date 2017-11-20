@@ -8,30 +8,29 @@
 }
 
 .stories .post {
-    width: 350px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.25);
+    width: 400px;
+    margin: 25px;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.4);
     background-color: #fff;
     transition: .5s;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
     .stories .post {
         margin: 10px;
-        width: 40%;
+        width: 45%;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .stories .post {
-        width: 40%;
+        width: 45%;
     }
 }
 
 @media screen and (max-width: 930px) {
     .stories .post {
-        width: 40%;
+        width: 45%;
     }
 }
 
