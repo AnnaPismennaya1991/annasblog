@@ -37,8 +37,6 @@ import Bali from './Bali';
 import MonkiesForest from './MonkiesForest';
 import BaliArt from './BaliArt';
 
-
-
 export default [
     DocumentiVietnam,
     ZnakomstvoHanoi,
