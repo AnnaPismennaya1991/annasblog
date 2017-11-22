@@ -4,7 +4,7 @@ import MiniPost from './MiniPost';
 
 const miniConfig = {
     title: 'Знакомство с Ханоем',
-    img: 'znakomstvoHanoi',
+    img: 'ZnakomstvoHanoi',
     text: 'Такси выезжает на мост, поля остаются далеко позади, а перед нами открывается вид на суматошный город.',
     date: '25.06.2017'
 }

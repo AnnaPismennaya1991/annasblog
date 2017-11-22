@@ -4,7 +4,7 @@ import MiniPost from './MiniPost';
 
 const miniConfig = {
     title: 'Главное, не заблудиться в 36-ти улицах!',
-    img: 'streets36',
+    img: 'Streets36',
     text: 'Больше всего во Вьетнаме мне понравилось то, что там всегда было куда идти.',
     date: '25.06.2017'
 };
