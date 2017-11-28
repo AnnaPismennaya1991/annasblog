@@ -16,78 +16,100 @@ tooltip {
     display: none;
 }
 
-.main-menu .ant-menu-item:hover,
-.main-menu .ant-menu-submenu:hover,
-.main-menu .ant-menu-submenu-selected,
-.main-menu .ant-menu-submenu-horizontal:hover,
-.main-menu .ant-menu-item-selected {
-    color: black;
-    border-bottom: none;
-}
-
-.main-menu .ant-menu-item,
-.main-menu .ant-menu-submenu {
-    border-bottom: none;
-}
-
-.ant-menu-horizontal{
-    border-bottom: none;
-}
-
-
 .slide-up-leave {
     opacity: 0;
     transition: 0;
 }
 
-.main-menu .ant-menu-submenu-title:hover {
-    color: black;
+.main-menu .ant-menu-item a{ /* главная */
+    text-decoration: none;
+    border-bottom: none;
+    color: #FFFFFF;
+    transition: .3s;
 }
 
-.main-menu .ant-menu-submenu-title:after {
-    content: '';
+.main-menu .ant-menu-item a:hover{ /* главная hover */
+    color: #A9A9A9;
+    border-bottom: none;
 }
 
-.main-menu .ant-menu-item,
-.main-menu .ant-menu-submenu-title,
-.main-menu .ant-menu-submenu,
+.main-menu .ant-menu-submenu-horizontal > .ant-menu-submenu-title{ /* страны */
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.main-menu .ant-menu-submenu-horizontal > .ant-menu-submenu-title:hover{ /* страны hover */
+    color: #A9A9A9;
+    border-bottom: none;
+}
+
+.main-menu .ant-menu-item, /* галерея, об авторе */
 .main-menu .ant-menu-item-selected {
     font-size:large;
     font-family:sans-serif;
+    color: #FFFFFF;
 }
-.search-svg{
+
+.main-menu .ant-menu-vertical .ant-menu-sub .ant-menu-item { /* ханой... */
+    color: black;
+}
+
+.main-menu .ant-menu-vertical .ant-menu-sub .ant-menu-item-active { /* ханой... */
+    color: #A9A9A9;
+}
+
+.main-menu .ant-menu-item:hover, /* галерея, об авторе hover  */
+.main-menu .ant-menu-item-selected,
+.main-menu .ant-menu-submenu:hover,
+.main-menu .ant-menu-submenu-horizontal:hover,
+.main-menu .ant-menu-submenu-selected {
+    color: #A9A9A9;
+    border-bottom: none;
+}
+
+.main-menu .ant-menu-item,
+.main-menu .ant-menu-submenu,
+.ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.main-menu .ant-menu-submenu-title, /*  вьетнам, таиланд... */
+.main-menu .ant-menu-submenu {
+    font-size:large;
+    font-family:sans-serif;
+    color: black;
+}
+
+.main-menu .ant-menu-submenu-title:hover { /*  вьетнам, таиланд...hover  */
+    color: #A9A9A9;
+}
+
+.main-menu .ant-menu-submenu-title:after { /*  вьетнам, таиланд...after  */
+    content: '';
+}
+
+.search-svg{ /* поиск */
     height: 100%;
     display: flex;
     align-items: flex-end;
     margin-right: 10px;
 }
 
-.search-svg svg {
-    fill: rgba(0, 0, 0, 0.65);
+.search-svg svg { /* поиск */
+    fill: #FFFFFF;
     transition: 0.3s;
 }
 
-.search-svg svg:hover {
-    fill: black;
+.search-svg svg:hover { /* поиск hover */
+    fill: #A9A9A9;
     cursor: pointer;
 }
 
-.search-svg input{
+.search-svg input{ /* поиск-поле ввода */
     outline: none;
     width: 200px;
     height: 25px;
     margin-right: 10px;
     padding-left: 15px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.65);
-}
-
-.main-menu .ant-menu-item a{
-    text-decoration: none;
-    border-bottom: none;
-    color: rgba(0, 0, 0, 0.65);
-}
-
-.main-menu .ant-menu-item a:hover{
-    color: black;
 }
