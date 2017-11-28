@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
+
+import logo from './asserts/logo.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './HeaderSlider.css';
@@ -26,9 +28,14 @@ const HeaderSlider = () => {
     }
 
     return (
-      <Slider className='header-slider' {...settings}>
-        { renderSlides() }
-      </Slider>
+        <div className='header-slider-container'>
+            <Slider className='header-slider' {...settings}>
+                { renderSlides() }
+            </Slider>
+            <div className='logo'>
+                <img src={logo}/>
+            </div>
+        </div>
     );
 }
 export default HeaderSlider;
