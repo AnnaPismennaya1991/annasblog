@@ -1,7 +1,7 @@
 import DocumentiVietnam from './DocumentiVietnam.jpg';
 import ZnakomstvoHanoi from './ZnakomstvoHanoi.jpg';
 import Streets36 from './Streets36.jpg';
-// import HotelHanoi from './HotelHanoi.jpg';
+import HotelHanoi from './HotelHanoi.jpg';
 import streetLife from './streetLife.jpg';
 import hoanKiem from './hoanKiem.jpg';
 import NonLa from './NonLa.jpg';
@@ -21,10 +21,10 @@ import SubtropicalRain from './SubtropicalRain.jpg';
 import DanangBeach from './DanangBeach.jpg';
 import AsiaPark from './AsiaPark.jpg';
 import FruitsMania from './FruitsMania.jpg';
-// import VietnamNegative from './VietnamNegative.jpg';
+import VietnamNegative from './VietnamNegative.jpg';
 import VisaThai from './VisaThai.jpg';
 import ThaiZnakomstvo from './ThaiZnakomstvo.jpg';
-// import ThaiSmileCountry from './ThaiSmileCountry.jpg';
+import ThaiSmileCountry from './ThaiSmileCountry.jpg';
 import ThaiKrabi from './ThaiKrabi.jpg';
 import KrabiShops from './KrabiShops.jpg';
 import TigerCaveTemple from './TigerCaveTemple.jpg';
@@ -41,7 +41,7 @@ export default {
     DocumentiVietnam: DocumentiVietnam,
     ZnakomstvoHanoi: ZnakomstvoHanoi,
     Streets36: Streets36,
-    // HotelHanoi: HotelHanoi,
+    HotelHanoi: HotelHanoi,
     streetLife: streetLife,
     hoanKiem: hoanKiem,
     NonLa: NonLa,
@@ -61,10 +61,10 @@ export default {
     DanangBeach: DanangBeach,
     AsiaPark: AsiaPark,
     FruitsMania: FruitsMania,
-    // VietnamNegative: VietnamNegative,
+    VietnamNegative: VietnamNegative,
     VisaThai: VisaThai,
     ThaiZnakomstvo: ThaiZnakomstvo,
-    // ThaiSmileCountry: ThaiSmileCountry,
+    ThaiSmileCountry: ThaiSmileCountry,
     ThaiKrabi: ThaiKrabi,
     KrabiShops: KrabiShops,
     TigerCaveTemple: TigerCaveTemple,
