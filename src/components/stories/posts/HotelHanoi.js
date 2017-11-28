@@ -4,7 +4,7 @@ import MiniPost from './MiniPost';
 
 const miniConfig = {
     title: 'Гостиница в Ханое',
-    img: 'hotelHanoi',
+    img: 'HotelHanoi',
     text: 'Дверь открывается и перед нами "их лучший номер"',
     date: '25.06.2017'
 }

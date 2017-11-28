@@ -81,3 +81,13 @@ tooltip {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.65);
 }
+
+.main-menu .ant-menu-item a{
+    text-decoration: none;
+    border-bottom: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.main-menu .ant-menu-item a:hover{
+    color: black;
+}
