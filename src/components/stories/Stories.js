@@ -5,14 +5,17 @@ import './Stories.css';
 
 class Stories extends Component {
     renderPosts = () => {
-        return posts.map((Post, index) => {
+        return posts.map((post, index) => {
+            const Component = post.component;
+
             return (
                 <div className='post' key={index}>
-                    <Post mini />
+                    <Component mini />
                 </div>
             )
         });
     }
+
 
     render() {
         return (

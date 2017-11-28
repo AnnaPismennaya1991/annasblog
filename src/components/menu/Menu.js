@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
 import 'antd/lib/menu/style/index.css';
 
 import SearchSvg from '../asserts/SearchSvg';
@@ -21,7 +22,11 @@ export default class MenuComponent extends React.Component {
                 <Menu className='main-menu'
                     selectedKeys={[this.state.current]}
                     mode="horizontal">
-                    <Menu.Item key="main">Главная</Menu.Item>
+                    <Menu.Item key="main">
+                        <Link to='/'>
+                            Главная
+                        </Link>
+                    </Menu.Item>
                     <SubMenu title={<span>Страны</span>}>
                         <SubMenu key="sub0" title='Вьетнам'>
                             <Menu.Item key="1-1">Ханой</Menu.Item>
