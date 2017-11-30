@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MiniPost from './MiniPost';
+import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Главное, не заблудиться в 36-ти улицах!',
@@ -12,7 +12,7 @@ const miniConfig = {
 const Streets36 = (props) => {
     return (
         <div>
-            { props.mini && <MiniPost {...miniConfig} /> }
+            { props.mini && <MiniTemplate {...miniConfig} /> }
             { !props.mini && <div>Вся статья</div> }
         </div>
     )

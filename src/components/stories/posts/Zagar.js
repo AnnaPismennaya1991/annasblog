@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MiniPost from './MiniPost';
+import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Рецепт вьетнамского загара: час на солнце и никакого крема. Почувствуй себя угольком!',
@@ -12,7 +12,7 @@ const miniConfig = {
 const Zagar = (props) => {
     return (
         <div>
-            { props.mini && <MiniPost {...miniConfig} />}
+            { props.mini && <MiniTemplate {...miniConfig} />}
             { !props.mini && <div>Вся статья</div> }
         </div>
     )

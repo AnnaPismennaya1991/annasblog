@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './MiniPost.css';
+import './MiniTemplate.css';
 
 import imgs from './asserts';
+import DateSvg from './asserts/DateSvg';
 
-const MiniPost = (props) => {
+const MiniTemplate = (props) => {
     return (
         <div>
             <div className='title'>
@@ -17,9 +18,9 @@ const MiniPost = (props) => {
                 <img src={ imgs[props.img] }/>
             </div>
             <div className='text'>{ props.text }</div>
-            <div className='date'>{ props.date }</div>
+            <div className='date'><DateSvg /><span>{ props.date }</span></div>
         </div>
     )
 };
 
-export default MiniPost;
+export default MiniTemplate;
