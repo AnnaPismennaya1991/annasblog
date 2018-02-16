@@ -30,8 +30,9 @@ export default class MenuComponent extends React.Component {
                     <SubMenu title={<span>Страны</span>}>
                         <SubMenu key="sub0" title='Вьетнам'>
                             <Menu.Item key="1-1">Ханой</Menu.Item>
-                            <Menu.Item key="2-2">Дананг</Menu.Item>
-                            <Menu.Item key="3-3">Хойан</Menu.Item>
+                            <Menu.Item key="1-2">Дананг</Menu.Item>
+                            <Menu.Item key="1-3">Хойан</Menu.Item>
+                            <Menu.Item key="1-4">Нячанг</Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub1" title='Таиланд'>
                             <Menu.Item key="2-1">Краби</Menu.Item>
@@ -41,6 +42,7 @@ export default class MenuComponent extends React.Component {
                         </SubMenu>
                         <SubMenu key="sub2" title='Малайзия'>
                             <Menu.Item key="3-1">Лангкави</Menu.Item>
+                            <Menu.Item key="3-2">Куала-Лумпур</Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub3" title='Индонезия'>
                             <Menu.Item key="4-1">Бали</Menu.Item>

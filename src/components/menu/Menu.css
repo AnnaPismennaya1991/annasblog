@@ -1,15 +1,15 @@
 .menu-component {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 44px;
+    display: flex;
     flex: 1;
 }
 
 .menu-component .main-menu {
+    background: transparent;
     margin-top: 0px;
     flex: 1;
-    background: transparent;
 }
 
 tooltip {
@@ -17,36 +17,36 @@ tooltip {
 }
 
 .slide-up-leave {
-    opacity: 0;
     transition: 0;
+    opacity: 0;
 }
 
 .main-menu .ant-menu-item a{ /* главная */
     text-decoration: none;
     border-bottom: none;
-    color: #FFFFFF;
     transition: .3s;
+    color: #FFFFFF;
 }
 
 .main-menu .ant-menu-item a:hover{ /* главная hover */
-    color: #A9A9A9;
     border-bottom: none;
+    color: #A9A9A9;
 }
 
 .main-menu .ant-menu-submenu-horizontal > .ant-menu-submenu-title{ /* страны */
-    color: #FFFFFF;
     border-bottom: none;
+    color: #FFFFFF;
 }
 
 .main-menu .ant-menu-submenu-horizontal > .ant-menu-submenu-title:hover{ /* страны hover */
-    color: #A9A9A9;
     border-bottom: none;
+    color: #A9A9A9;
 }
 
 .main-menu .ant-menu-item, /* галерея, об авторе */
 .main-menu .ant-menu-item-selected {
-    font-size:large;
     font-family:sans-serif;
+    font-size:large;
     color: #FFFFFF;
 }
 
@@ -63,8 +63,8 @@ tooltip {
 .main-menu .ant-menu-submenu:hover,
 .main-menu .ant-menu-submenu-horizontal:hover,
 .main-menu .ant-menu-submenu-selected {
-    color: #A9A9A9;
     border-bottom: none;
+    color: #A9A9A9;
 }
 
 .main-menu .ant-menu-item,
@@ -75,8 +75,8 @@ tooltip {
 
 .main-menu .ant-menu-submenu-title, /*  вьетнам, таиланд... */
 .main-menu .ant-menu-submenu {
-    font-size:large;
     font-family:sans-serif;
+    font-size:large;
     color: black;
 }
 
@@ -89,27 +89,27 @@ tooltip {
 }
 
 .search-svg{ /* поиск */
-    height: 100%;
-    display: flex;
     align-items: flex-end;
     margin-right: 10px;
+    display: flex;
+    height: 100%;
 }
 
 .search-svg svg { /* поиск */
-    fill: #FFFFFF;
     transition: 0.3s;
+    fill: #FFFFFF;
 }
 
 .search-svg svg:hover { /* поиск hover */
-    fill: #A9A9A9;
     cursor: pointer;
+    fill: #A9A9A9;
 }
 
 .search-svg input{ /* поиск-поле ввода */
-    outline: none;
-    width: 200px;
-    height: 25px;
     margin-right: 10px;
     padding-left: 15px;
     font-size: 14px;
+    outline: none;
+    width: 200px;
+    height: 25px;
 }
