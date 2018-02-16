@@ -1,3 +1,4 @@
+// посты-статьи
 import DocumentiVietnam from './DocumentiVietnam';
 import ZnakomstvoHanoi from './ZnakomstvoHanoi';
 import Streets36 from './Streets36';
@@ -36,6 +37,9 @@ import AboutLangkawi from './AboutLangkawi';
 import Bali from './Bali';
 import MonkiesForest from './MonkiesForest';
 import BaliArt from './BaliArt';
+import King from './King';
+import Bangkok from './Bangkok';
+
 
 export default [
     { path: 'DocumentiVietnam', component: DocumentiVietnam },
@@ -75,5 +79,7 @@ export default [
     { path: 'AboutLangkawi', component: AboutLangkawi },
     { path: 'Bali', component: Bali },
     { path: 'MonkiesForest', component: MonkiesForest },
-    { path: 'BaliArt', component: BaliArt }
+    { path: 'BaliArt', component: BaliArt },
+    { path: 'King', component: King },
+    { path: 'Bangkok', component: Bangkok }
 ];

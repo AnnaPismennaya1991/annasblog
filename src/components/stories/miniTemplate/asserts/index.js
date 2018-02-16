@@ -1,3 +1,4 @@
+// изображения к мини-постам на главной странице
 import DocumentiVietnam from './DocumentiVietnam.jpg';
 import ZnakomstvoHanoi from './ZnakomstvoHanoi.jpg';
 import Streets36 from './Streets36.jpg';
@@ -36,6 +37,8 @@ import AboutLangkawi from './AboutLangkawi.jpg';
 import Bali from './Bali.jpg';
 import MonkiesForest from './MonkiesForest.jpg';
 import BaliArt from './BaliArt.jpg';
+import King from './King.jpg';
+import Bangkok from './Bangkok.jpg';
 
 export default {
     DocumentiVietnam: DocumentiVietnam,
@@ -75,5 +78,7 @@ export default {
     AboutLangkawi: AboutLangkawi,
     Bali: Bali,
     MonkiesForest: MonkiesForest,
-    BaliArt: BaliArt
+    BaliArt: BaliArt,
+    King: King,
+    Bangkok: Bangkok
 }

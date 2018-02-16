@@ -1,3 +1,5 @@
+/* мини-посты на главной странице */
+/* название поста */
 .title {
     text-align: center;
     font-family: "Roboto Slab", sans-serif;
@@ -20,6 +22,7 @@
     color: black;
 }
 
+/* изображение мини-поста */
 .imgs {
     overflow: hidden;
 }
@@ -33,12 +36,14 @@
     transform: scale(1.2);
 }
 
+/* текст под мини-постом */
 .text {
     padding: 15px;
     font-size: 15px;
     color:rgba(0, 0, 0, 0.65);
 }
 
+/* дата под мини-постом */
 .date {
     padding: 10px;
     color:rgba(0, 0, 0, 0.65);

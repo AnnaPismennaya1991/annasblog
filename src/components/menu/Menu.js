@@ -1,3 +1,4 @@
+// горизонтальная полоса меню - Главная/Страны/Галерея/Об авторе 
 import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
