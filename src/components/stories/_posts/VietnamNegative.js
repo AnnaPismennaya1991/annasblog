@@ -1,21 +1,17 @@
-import React from 'react';
-
-import MiniTemplate from '../miniTemplate/MiniTemplate';
-
-const miniConfig = {
+export default {
+    id: 'VietnamNegative',
     title: 'Обратная сторона Вьетнама',
+    date: '28.07.2017',
+
     miniImg: 'VietnamNegative',
     miniText: 'Я долго не решалась написать эту статью, но пришло время открыть завесу тайны и поделиться с Вами тем, о чем не напишут в путеводителях или отредактированных туристических журналах. Речь пойдёт о наболевшем - о "тёмной стороне" Вьетнама.',
-    date: '28.07.2017'
-}
 
-const VietnamNegative = (props) => {
-    return (
-        <div>
-            { props.mini && <MiniTemplate {...miniConfig} />}
-            { !props.mini && <div>Вся статья</div> }
-        </div>
-    )
+
+    titleImg: 'VietnamNegative',
+    items: [
+        {
+            text: ``
+            img: [ '1', '2', '3' ]
+        }
+    ]
 };
-
-export default VietnamNegative;

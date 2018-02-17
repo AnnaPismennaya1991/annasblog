@@ -1,21 +1,16 @@
-import React from 'react';
-
-import MiniTemplate from '../miniTemplate/MiniTemplate';
-
-const miniConfig = {
+export default {
+    id: 'CulturalCenter',
     title: 'Культурный центр ',
+    date: '29.06.2017',
+
     miniImg: 'CulturalCenter',
     miniText: 'Картинные галереи, кофейни, рестораны, атмосферная архитектура, дорогие магазины, роскошные гостиницы, озеро возвращённого меча, беседки, вечнозелёные парки, уличные художники...всё это Центр Ханоя.',
-    date: '29.06.2017'
-}
 
-const CulturalCenter = (props) => {
-    return (
-        <div>
-            { props.mini && <MiniTemplate {...miniConfig} />}
-            { !props.mini && <div>Вся статья</div> }
-        </div>
-    )
+    titleImg: 'CulturalCenter',
+    items: [
+        {
+            text: ``
+            img: [ '1', '2', '3' ]
+        }
+    ]
 };
-
-export default CulturalCenter;

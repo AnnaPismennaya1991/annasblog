@@ -1,21 +1,16 @@
-import React from 'react';
-
-import MiniTemplate from '../miniTemplate/MiniTemplate';
-
-const miniConfig = {
+export default {
+    id: 'Hoian',
     title: 'Хойан. Вьетнамская Венеция',
+    date: '11.07.2017',
+
     miniImg: 'Hoian',
     miniText: 'Город ярких фонариков, колоритных свадеб, улыбчивых вьетнамцев, бамбуковых велосипедов, глазастых лодочек, зеленых окрестностей, желтых зданий, вкуснейшей кухни и беззаботно гуляющих, туристов.',
-    date: '.07.2017'
-}
 
-const Hoian = (props) => {
-    return (
-        <div>
-            { props.mini && <MiniTemplate {...miniConfig} />}
-            { !props.mini && <div>Вся статья</div> }
-        </div>
-    )
+    titleImg: 'Hoian',
+    items: [
+        {
+            text: ``
+            img: [ '1', '2', '3' ]
+        }
+    ]
 };
-
-export default Hoian;

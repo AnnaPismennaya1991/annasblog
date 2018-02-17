@@ -12,6 +12,28 @@ import TigerCaveTemple from './TigerCaveTemple';
 import KrabiShops from './KrabiShops';
 import ThaiKrabi from './ThaiKrabi';
 import ThaiSmileCountry from './ThaiSmileCountry';
+import ThaiZnakomstvo from './ThaiZnakomstvo';
+import VisaThai from './VisaThai';
+import VietnamNegative from './VietnamNegative';
+import FruitsMania from './FruitsMania';
+import AsiaPark from './AsiaPark';
+import DanangBeach from './DanangBeach';
+import SubtropicalRain from './SubtropicalRain';
+import CollectionByRehahn from './CollectionByRehahn';
+import Hoian from './Hoian';
+import LadyBuddha from './LadyBuddha';
+import ThungChai from './ThungChai';
+import CoCoVillaDaNang from './CoCoVillaDaNang';
+import MotoHanoi from './MotoHanoi';
+import CulturalCenter from './CulturalCenter';
+import HanoiArt from './HanoiArt';
+import SoupPho from './SoupPho';
+import Dongi from './Dongi';
+import Zagar from './Zagar';
+import WhereAreYouFrom from './WhereAreYouFrom';
+import NonLa from './NonLa';
+import HoanKiem from './HoanKiem';
+import StreetLife from './StreetLife';
 
 const posts = [
     { ...Bangkok },
@@ -28,8 +50,28 @@ const posts = [
     { ...KrabiShops},
     { ...ThaiKrabi},
     { ...ThaiSmileCountry},
-    { ...},
-    { ...},
+    { ...ThaiZnakomstvo},
+    { ...VisaThai},
+    { ...VietnamNegative},
+    { ...FruitsMania},
+    { ...AsiaPark},
+    { ...DanangBeach},
+    { ...SubtropicalRain},
+    { ...CollectionByRehahn},
+    { ...Hoian},
+    { ...LadyBuddha},
+    { ...ThungChai},
+    { ...CoCoVillaDaNang},
+    { ...MotoHanoi},
+    { ...CulturalCenter},
+    { ...HanoiArt},
+    { ...SoupPho},
+    { ...Dongi},
+    { ...Zagar},
+    { ...WhereAreYouFrom},
+    { ...NonLa},
+    { ...HoanKiem},
+    { ...StreetLife},
     { ...},
     { ...},
     { ...},
