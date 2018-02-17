@@ -1,7 +1,7 @@
 /* мини посты на главной странице */
 
 /* контейнер для всех статей */
-.stories {
+.posts-container {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
@@ -13,7 +13,7 @@
 }
 
 /* контейнер одной статьи */
-.stories .post {
+.posts-container .post {
     box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.3);
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -37,7 +37,7 @@
 }
 
 /* название статьи hover*/
-.title a:hover{
+.title a:hover {
     transition: 0.3s;
     color: black;
 }
@@ -63,26 +63,26 @@
 }
 
 @media screen and (max-width: 1350px) {
-    .stories .post {
+    .posts-container .post {
         margin: 10px;
         width: 45%;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .stories .post {
+    .posts-container .post {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 930px) {
-    .stories .post {
+    .posts-container .post {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .stories .post {
+    .posts-container .post {
         margin: 10px 0px;
         width: 100%;
     }

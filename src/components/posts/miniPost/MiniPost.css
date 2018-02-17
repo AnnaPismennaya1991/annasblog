@@ -1,84 +1,84 @@
 /* мини-посты на главной странице */
 /* название поста */
-.title {
-    text-align: center;
+.mini-post .title {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 1.25em;
     color:rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 1.25em;
     margin: 10px;
 }
 
-.title a {
-    text-decoration: none;
+.mini-post .title a {
     color:rgba(0, 0, 0, 0.65);
+    text-decoration: none;
 }
 
-.title a:hover{
+.mini-post .title a:hover{
     color:black;
 }
 
-.title:hover{
+.mini-post .title:hover{
     transition: 0.4s;
     color: black;
 }
 
 /* изображение мини-поста */
-.imgs {
+.mini-post .imgs {
     overflow: hidden;
 }
 
-.imgs img{
-    width: 400px;
+.mini-post .imgs img{
     transition: 0.3s;
+    width: 400px;
 }
 
-.imgs img:hover{
+.mini-post .imgs img:hover{
     transform: scale(1.2);
 }
 
 /* текст под мини-постом */
-.text {
-    padding: 15px;
-    font-size: 15px;
+.mini-post .text {
     color:rgba(0, 0, 0, 0.65);
+    font-size: 15px;
+    padding: 15px;
 }
 
 /* дата под мини-постом */
-.date {
-    padding: 10px;
+.mini-post .date {
     color:rgba(0, 0, 0, 0.65);
-    display: flex;
     align-items: center;
+    padding: 10px;
+    display: flex;
 }
 
-.date svg {
+.mini-post .date svg {
     padding-right: 10px;
 }
 
 @media screen and (max-width: 1350px) {
-    .imgs img {
-        width: 100%;
+    .mini-post .imgs img {
         height: 100%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .imgs img {
-        width: 100%;
+    .mini-post .imgs img {
         height: 100%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 930px) {
-    .imgs img{
-        width: 100%;
+    .mini-post .imgs img{
         height: 100%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .imgs img {
-        width: 100%;
+    .mini-post .imgs img {
         height: 100%;
+        width: 100%;
     }
 }
