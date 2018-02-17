@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Знакомство с Ханоем',
-    img: 'ZnakomstvoHanoi',
-    text: 'Такси выезжает на мост, поля остаются далеко позади, а перед нами открывается вид на суматошный город.',
+    miniImg: 'ZnakomstvoHanoi',
+    miniText: 'Такси выезжает на мост, поля остаются далеко позади, а перед нами открывается вид на суматошный город.',
     date: '25.06.2017'
 }
 

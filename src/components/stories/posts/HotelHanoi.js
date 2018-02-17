@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Гостиница в Ханое',
-    img: 'HotelHanoi',
-    text: 'Дверь открывается и перед нами "их лучший номер"',
+    miniImg: 'HotelHanoi',
+    miniText: 'Дверь открывается и перед нами "их лучший номер"',
     date: '25.06.2017'
 }
 

@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Where are you from..?',
-    img: 'WhereAreYouFrom',
-    text: 'Дружелюбный, радостный, искренний, отзывчивый и слегка наивный народ',
+    miniImg: 'WhereAreYouFrom',
+    miniText: 'Дружелюбный, радостный, искренний, отзывчивый и слегка наивный народ',
     date: '28.06.2017'
 }
 

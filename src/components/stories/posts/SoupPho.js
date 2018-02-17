@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Суп «Pho» на завтрак ',
-    img: 'SoupPho',
-    text: 'Бульонных дел мастер',
+    miniImg: 'SoupPho',
+    miniText: 'Бульонных дел мастер',
     date: '29.06.2017'
 }
 

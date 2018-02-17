@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Донги',
-    img: 'Dongi',
-    text: 'Полимерные деньги',
+    miniImg: 'Dongi',
+    miniText: 'Полимерные деньги',
     date: '28.06.2017'
 }
 

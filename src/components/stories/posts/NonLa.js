@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: '«Non la»',
-    img: 'NonLa',
-    text: 'Вьетнам не был бы Вьетнамом, без конусообразной соломенной шляпы «Non la».',
+    miniImg: 'NonLa',
+    miniText: 'Вьетнам не был бы Вьетнамом, без конусообразной соломенной шляпы «Non la».',
     date: '27.06.2017'
 }
 

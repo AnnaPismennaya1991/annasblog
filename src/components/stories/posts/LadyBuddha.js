@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Lady Buddha (Linh Ung Pagoda)',
-    img: 'LadyBuddha',
-    text: 'Величественная красота',
+    miniImg: 'LadyBuddha',
+    miniText: 'Величественная красота',
     date: '10.07.2017'
 }
 

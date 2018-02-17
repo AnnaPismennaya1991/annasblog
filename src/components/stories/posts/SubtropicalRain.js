@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Субтропический ливень',
-    img: 'SubtropicalRain',
-    text: '"Анна, не забудьте зонт! Сегодня в ДаНанге дожди"',
+    miniImg: 'SubtropicalRain',
+    miniText: '"Анна, не забудьте зонт! Сегодня в ДаНанге дожди"',
     date: '13.07.2017'
 }
 

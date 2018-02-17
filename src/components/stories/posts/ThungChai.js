@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: '«Тхунг Чай»',
-    img: 'ThungChai',
-    text: 'Круглые лодки рыбаков - своеобразный символ Вьетнама.',
+    miniImg: 'ThungChai',
+    miniText: 'Круглые лодки рыбаков - своеобразный символ Вьетнама.',
     date: '08.07.2017'
 }
 

@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Необходимые документы во Вьетнам',
-    img: 'DocumentiVietnam',
-    text: 'Трудности в оформлении приглашения',
+    miniImg: 'DocumentiVietnam',
+    miniText: 'Трудности в оформлении приглашения',
     date: '03.06.2017'
 }
 

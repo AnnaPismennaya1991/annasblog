@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Asia Park',
-    img: 'AsiaPark',
-    text: 'Центр развлечений Asia Park',
+    miniImg: 'AsiaPark',
+    miniText: 'Центр развлечений Asia Park',
     date: '19.07.2017'
 }
 

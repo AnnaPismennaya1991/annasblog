@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'CoCo Villa Da Nang',
-    img: 'CoCoVillaDaNang',
-    text: 'Apartment"s and Hotel',
+    miniImg: 'CoCoVillaDaNang',
+    miniText: 'Apartment"s and Hotel',
     date: '03.07.2017'
 }
 

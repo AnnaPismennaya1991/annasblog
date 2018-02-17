@@ -11,12 +11,12 @@ const MiniTemplate = (props) => {
     return (
         <div>
             <div className='title'>
-                <Link to={props.img}>
+                <Link to={props.miniImg}>
                     { props.title }
                 </Link>
             </div>
             <div className='imgs'>
-                <img src={ imgs[props.img] }/>
+                <img src={ imgs[props.miniImg] } alt='minitemplate' />
             </div>
             <div className='text'>{ props.text }</div>
             <div className='date'><DateSvg /><span>{ props.date }</span></div>

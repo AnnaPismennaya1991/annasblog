@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Фруктомания',
-    img: 'FruitsMania',
-    text: 'Фруктовый рай',
+    miniImg: 'FruitsMania',
+    miniText: 'Фруктовый рай',
     date: '27.07.2017'
 }
 

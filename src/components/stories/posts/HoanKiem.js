@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Hoàn Kiếm',
-    img: 'hoanKiem',
-    text: 'Озеро возвращённого меча',
+    miniImg: 'hoanKiem',
+    miniText: 'Озеро возвращённого меча',
     date: '27.06.2017'
 }
 

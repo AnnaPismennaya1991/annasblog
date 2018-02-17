@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Мото-хаос Ханоя',
-    img: 'MotoHanoi',
-    text: 'Самое непредсказуемое всегда - на перекрестках. Здесь каждый едет, как вздумается.',
+    miniImg: 'MotoHanoi',
+    miniText: 'Самое непредсказуемое всегда - на перекрестках. Здесь каждый едет, как вздумается.',
     date: '29.06.2017'
 }
 

@@ -1,26 +1,22 @@
 import React, { Component } from 'react';
 
-import posts from './posts';
+import posts from './constants';
+import Story from './Story';
 import './Stories.css';
 
 class Stories extends Component {
-    renderPosts = () => {
-        return posts.map((post, index) => {
-            const Component = post.component;
-
+    renderStories = () => {
+        return posts.map((post) => {
             return (
-                <div className='post' key={index}>
-                    <Component mini />
-                </div>
-            )
+                <Story {...post} key={post.id} mini />
+            );
         });
     }
-
 
     render() {
         return (
             <div className='stories'>
-                { this.renderPosts() }
+                { this.renderStories() }
             </div>
         );
     }

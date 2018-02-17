@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'The Precious Heritage Collection by Réhahn',
-    img: 'CollectionByRehahn',
-    text: 'Вдохновения пост',
+    miniImg: 'CollectionByRehahn',
+    miniText: 'Вдохновения пост',
     date: '11.07.2017'
 }
 

@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Искусство Ханоя',
-    img: 'HanoiArt',
-    text: '',
+    miniImg: 'HanoiArt',
+    miniText: '',
     date: '29.06.2017'
 }
 

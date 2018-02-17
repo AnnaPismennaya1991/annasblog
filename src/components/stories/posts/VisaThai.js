@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'История о том, как мы получали визу в Таиланд',
-    img: 'VisaThai',
-    text: 'Перечень необходимых документов для получения визы по прилёту в Таиланд',
+    miniImg: 'VisaThai',
+    miniText: 'Перечень необходимых документов для получения визы по прилёту в Таиланд',
     date: '01.08.2017'
 }
 

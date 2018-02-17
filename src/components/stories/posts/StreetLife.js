@@ -4,8 +4,8 @@ import MiniTemplate from '../miniTemplate/MiniTemplate';
 
 const miniConfig = {
     title: 'Уличная жизнь',
-    img: 'streetLife',
-    text: 'Один из запоминающихся символов Вьетнама - торговки на улицах и рынках, в соломенных конусообразных шляпах.',
+    miniImg: 'streetLife',
+    miniText: 'Один из запоминающихся символов Вьетнама - торговки на улицах и рынках, в соломенных конусообразных шляпах.',
     date: '25.06.2017'
 };
 

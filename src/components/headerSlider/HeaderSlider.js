@@ -34,7 +34,7 @@ const HeaderSlider = () => {
                 { renderSlides() }
             </Slider>
             <div className='logo'>
-                <img src={logo}/>
+                <img src={logo} alt='logo' />
             </div>
         </div>
     );
