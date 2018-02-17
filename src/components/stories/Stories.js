@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import posts from './constants';
+import posts from './posts';
 import Story from './Story';
 import './Stories.css';
 

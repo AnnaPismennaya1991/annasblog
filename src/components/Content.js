@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import posts from './stories/constants';
 import Stories from './stories/Stories';
+import posts from './stories/posts';
 import Story from './stories/Story';
 
 const renderRoutes = () => {
