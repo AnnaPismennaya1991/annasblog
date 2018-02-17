@@ -27,20 +27,3 @@ export default {
         }
     ]
 };
-
-export default {
-    id: '',
-    title: '',
-    date: '',
-
-    miniImg: '',
-    miniText: '',
-
-    titleImg: '',
-    items: [
-        {
-            text: ``
-            img: [ '1', '2', '3' ]
-        }
-    ]
-};

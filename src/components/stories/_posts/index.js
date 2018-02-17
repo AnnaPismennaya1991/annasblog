@@ -34,6 +34,10 @@ import WhereAreYouFrom from './WhereAreYouFrom';
 import NonLa from './NonLa';
 import HoanKiem from './HoanKiem';
 import StreetLife from './StreetLife';
+import HotelHanoi from './HotelHanoi';
+import Streets36 from './Streets36';
+import ZnakomstvoHanoi from './ZnakomstvoHanoi';
+import DocumentiVietnam from './DocumentiVietnam';
 
 const posts = [
     { ...Bangkok },
@@ -72,10 +76,10 @@ const posts = [
     { ...NonLa},
     { ...HoanKiem},
     { ...StreetLife},
-    { ...},
-    { ...},
-    { ...},
-    { ...},
+    { ...HotelHanoi},
+    { ...Streets36},
+    { ...ZnakomstvoHanoi},
+    { ...DocumentiVietnam},
 ];
 
 export default posts;

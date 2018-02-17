@@ -1,8 +1,8 @@
 // посты-статьи
-import DocumentiVietnam from './DocumentiVietnam';
-import ZnakomstvoHanoi from './ZnakomstvoHanoi';
-import Streets36 from './Streets36';
-import HotelHanoi from './HotelHanoi';
+// import DocumentiVietnam from './DocumentiVietnam';
+// import ZnakomstvoHanoi from './ZnakomstvoHanoi';
+// import Streets36 from './Streets36';
+// import HotelHanoi from './HotelHanoi';
 // import StreetLife from './StreetLife';
 // import HoanKiem from './HoanKiem';
 // import NonLa from './NonLa';
@@ -40,12 +40,6 @@ import HotelHanoi from './HotelHanoi';
 // import King from './King';
 // import Bangkok from './Bangkok';
 
-
-
-
-
-// В таком порядке посты будут на главной странице сайта!
-// Самые новые впереди
 // export default [
     // { path: 'Bangkok', component: Bangkok },
     // { path: 'King', component: King },
