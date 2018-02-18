@@ -18,7 +18,7 @@ const MiniPost = (props) => {
             <div className='imgs'>
                 <img src={ imgs[props.miniImg] } alt='minipost' />
             </div>
-            <div className='text'>{ props.text }</div>
+            <div className='text'>{ props.miniText }</div>
             <div className='date'><DateSvg /><span>{ props.date }</span></div>
         </div>
     )

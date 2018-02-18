@@ -27,7 +27,6 @@ const renderBlocks = (items) => {
 };
 
 const Post = (props) => {
-    console.log(props);
     return (
         <div className='post'>
             { props.mini && <MiniPost {...props} /> }

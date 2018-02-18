@@ -1,39 +1,36 @@
 /* мини-посты на главной странице */
-/* название поста */
-.mini-post .title {
+/* название мини-поста (большой и маленький контейнер) */
+.mini-post .title,
+.mini-post .title a {
     font-family: "Roboto Slab", sans-serif;
     color:rgba(0, 0, 0, 0.65);
+    text-decoration: none;
     text-align: center;
-    font-size: 1.25em;
+    font-size: 22px;
     margin: 10px;
 }
-
-.mini-post .title a {
-    color:rgba(0, 0, 0, 0.65);
-    text-decoration: none;
-}
-
-.mini-post .title a:hover{
-    color:black;
-}
-
-.mini-post .title:hover{
+/* название мини-поста при наведении */
+.mini-post .title:hover,
+.mini-post .title a:hover {
     transition: 0.4s;
     color: black;
 }
 
-/* изображение мини-поста */
+/* ограничение изображения мини-поста при увеличении */
+/* при наведении картинка остается в контейнере */
 .mini-post .imgs {
     overflow: hidden;
 }
 
+/* размер изображения мини-поста */
 .mini-post .imgs img{
     transition: 0.3s;
     width: 400px;
 }
 
+/* увеличение изображения мини-поста при наведении */
 .mini-post .imgs img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* текст под мини-постом */
@@ -51,10 +48,12 @@
     display: flex;
 }
 
+/* svg даты под мини-постом */
 .mini-post .date svg {
     padding-right: 10px;
 }
 
+/* отображение мини-постов при сужении экрана */
 @media screen and (max-width: 1350px) {
     .mini-post .imgs img {
         height: 100%;

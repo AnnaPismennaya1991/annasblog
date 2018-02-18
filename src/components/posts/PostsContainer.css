@@ -1,10 +1,10 @@
 /* мини посты на главной странице */
 
-/* контейнер для всех статей */
+/* контейнер для всех мини-постов */
 .posts-container {
-    flex-direction: row;
     justify-content: center;
     align-items: stretch;
+    flex-direction: row;
     margin: 10px auto;
     padding: 10px 0px;
     flex-wrap: wrap;
