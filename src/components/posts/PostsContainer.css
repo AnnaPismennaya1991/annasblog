@@ -26,42 +26,7 @@
     width: 400px;
 }
 
-/* название статьи */
-.title {
-    font-family: "Roboto Slab", sans-serif;
-    color: rgba(0, 0, 0, 0.65);
-    padding-bottom: 10px;
-    text-align: center;
-    font-weight: 500;
-    margin: 10px;
-}
-
-/* название статьи hover*/
-.title a:hover {
-    transition: 0.3s;
-    color: black;
-}
-
-/* описание мини статьи */
-.text {
-    color: rgba(0, 0, 0, 0.65);
-    line-height: 150%;
-    font-size: .95em;
-    padding: 23px;
-}
-
-/* дата в мини посте */
-.date {
-    border-radius: 0 0 10px 10px;
-    color: rgba(0, 0, 0, 0.65);
-    background-color: #f9f9f9;
-    padding-left: 23px;
-    text-align: center;
-    font-weight: 500;
-    font-size: .9em;
-    padding: 12px;
-}
-
+/* отображение мини-постов при сужении экрана */
 @media screen and (max-width: 1350px) {
     .posts-container .post {
         margin: 10px;

@@ -5,10 +5,13 @@
     font-family: "Roboto Slab", sans-serif;
     color:rgba(0, 0, 0, 0.65);
     text-decoration: none;
+    padding-bottom: 10px;
     text-align: center;
+    font-weight: 500;
     font-size: 22px;
     margin: 10px;
 }
+
 /* название мини-поста при наведении */
 .mini-post .title:hover,
 .mini-post .title a:hover {
@@ -36,14 +39,21 @@
 /* текст под мини-постом */
 .mini-post .text {
     color:rgba(0, 0, 0, 0.65);
+    line-height: 150%;
     font-size: 15px;
-    padding: 15px;
+    padding: 20px;
 }
 
 /* дата под мини-постом */
 .mini-post .date {
+    border-radius: 0 0 10px 10px;
+    background-color: #f9f9f9;
     color:rgba(0, 0, 0, 0.65);
     align-items: center;
+    text-align: center;
+    padding-left: 23px;
+    font-weight: 500;
+    font-size: .9em;
     padding: 10px;
     display: flex;
 }
